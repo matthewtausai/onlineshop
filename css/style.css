@@ -709,4 +709,7 @@ section{
   .nav-right a{
     margin-right: 7px;
   }
+     .logo{
+    font-size: 15px;
+  }
 }
