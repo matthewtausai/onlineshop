@@ -689,7 +689,7 @@ section{
   .brands-c img{
     width: 100%;
     height: auto;
-    max-width: 100px;
+  
   }
 
   .newsletter-content form input:first-child{
@@ -714,9 +714,17 @@ section{
     margin-right: 7px;
   }
 
+  .brands-c img{
+    width: 100%;
+    height: auto;
+  
+  }
+
   .logo{
     font-size: 15px;
   }
+
+  
 
   .nav-right i{
     font-size: 20px;
