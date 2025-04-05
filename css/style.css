@@ -717,4 +717,38 @@ section{
   .logo{
     font-size: 15px;
   }
+
+  .nav-right i{
+    font-size: 15px;
+   
+  }
+  #menu-icon{
+    font-size: 25px;
+  }
+  .newsletter-text h2{
+    font-size: 20px;
+  }
+
+  .newsletter-text p{
+    font-size: 14px;
+  }
+  .newsletter-content form input:first-child{
+    padding: 8px;
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .newsletter-content form input:last-child{
+    font-size: 12px;
+    width: 80%;
+    margin-left: -30px;
+  }
+
+  .footer-box h3{
+    font-size: 15px;
+  }
+
+  .footer-box a{
+    font-size: 14px;
+  }
 }
