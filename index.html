@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyShopping</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/zambezi.jfif">
+    <!----box-icon link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--remix icons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+
+    
+     <!--google-fonts- link-->
+     <link rel="preconnect" href = "https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts,gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('#section');
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    } else {
+                        entry.target.classList.remove('visible'); // Optional: remove class when not in view
+                    }
+                });
+            }, {
+                threshold: 0.2 // Trigger the effect when 20% of the section is visible
+            });
+    
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <a href="#" class="logo">EasyShopping.CO</a>
+        <ul class="navlist">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">On Sale</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#"><i class="ri-search-line"></i></a>
+            <a href="#"><i class="ri-shopping-cart-line"></i></a>
+            <a href="#"><i class="ri-user-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!--Home-->
+
+    <section class="home">
+        <div class="home-text" data-aos="fade-up">
+            <h6>New Arrivals</h6>
+            <h1>New Arrivals <br/> Ready to rock</h1>
+            <p>You Can Now Get All Of Our Products At The Comfort Of Your Home With EasyShopping.CO</p>
+            <a href="#" class="btn">
+                Shop Now
+                <i class ="ri-arrow-right-line"></i>
+            </a>
+        </div>
+    </section>
+
+    <!--brands-->
+    <div class ="brands">
+        <div class="main-brands">
+            <div class="brands-c">
+                <img src ="img/Capture.PNG">
+            </div>
+            <div class="brands-c">
+                <img src ="img/Capture.PNG">
+            </div>
+            <div class="brands-c">
+                <img src ="img/Capture.PNG">
+            </div>
+           
+
+        </div>
+    </div>
+
+    <!--all products-->
+
+    <section class="all-products">
+        <div class="center-text">
+            <h2>All Products</h2>
+        </div>
+
+        <div class="n-content">
+            <div class="row">
+                <div class="row-img">
+ 
+                    <img src="img/maheu.jfif">
+                    <h4>I am Trending, Buy Me Please</h4>
+                    
+                  
+                </div>
+                <h3>The Original Maheu !!!!</h3>
+                
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                   
+                    <img src="img/drink3.PNG">
+
+                   
+                  
+                </div>
+                <h3>The New Juice On Town!!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/mugs.PNG">
+                  
+                  
+                </div>
+                <h3>The New Chineese Mugs !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/fashion.jpeg">
+                  
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/fashion.jpeg">
+                   
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/fashion.jpeg">
+                    
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/gament1.jpg">
+                  
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/gament1.jpg">
+                  
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/gament1.jpg">
+                   
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/drink4.jfif">
+                   
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/drink4.jfif">
+                   
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/drink4.jfif">
+                   
+                  
+                </div>
+                <h3>The Orriginal Versace !!!!</h3>
+
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#">4.5/5</a>
+                </div>
+
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to Cart
+                            <i class ="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="row-right">
+                        <h6>$150.00</h6>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="n-btn">
+            <a href="#" class="btn2"> View All</a>
+        </div>
+    </section>
+
+    <!--features-->
+    <section class="features" id="section">
+
+        <h1>SERVICES ON OFFER</h1>
+
+        <div class="features-content">
+            
+            
+
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-bank-card-fill "></i>
+                </div>
+
+                <div class="f-text">
+                    <h3>Pay On Delivery</h3>
+                    <p>You Can Now Pay At Delivery With EasyShopping.CO</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-truck-fill "></i>
+                </div>
+
+                <div class="f-text">
+                    <h3>Free Transport</h3>
+                    <p>You Can Now Pay At Delivery With EasyShopping.CO</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-customer-service-fill "></i>
+                </div>
+
+                <div class="f-text">
+                    <h3>24 Hr Customer Care Service</h3>
+                    <p>You Can Now Pay At Delivery With EasyShopping.CO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--best seller-->
+
+    <section class="selling" id="section">
+        <div class="center-text">
+            <h2>BEST SELLER</h2>
+        </div>
+
+        <div class="selling-content">
+            <div class="col">
+                <div class="col-img">
+                    <img src="img/drink2.jfif" alt="EasyShopping.CO">
+                </div>
+
+                <div class="col-icon">
+                    <a href="#"><i class="ri-heart-line"></i></a>
+                    <a href="#"><i class="ri-eye-line"></i></a>
+                    <a href="#"><i class="ri-shopping-cart-line"></i></a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="col-img">
+                    <img src="img/drink2.jfif" alt="EasyShopping.CO">
+                </div>
+
+                <div class="col-icon">
+                    <a href="#"><i class="ri-heart-line"></i></a>
+                    <a href="#"><i class="ri-eye-line"></i></a>
+                    <a href="#"><i class="ri-shopping-cart-line"></i></a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="col-img">
+                    <img src="img/drink2.jfif" alt="EasyShopping.CO">
+                </div>
+
+                <div class="col-icon">
+                    <a href="#"><i class="ri-heart-line"></i></a>
+                    <a href="#"><i class="ri-eye-line"></i></a>
+                    <a href="#"><i class="ri-shopping-cart-line"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--NewsLetter Section-->
+
+    <section class="newsletter" id="section">
+        <div class="newsletter-content">
+            <div class="newsletter-text">
+                <h2>Get On The list</h2>
+                <p>You Can Now Pay At Delivery With EasyShopping.CO</p>
+            </div>
+
+            <form action="">
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="submit" value="Subscribe" class="btnn">
+            </form>
+        </div>
+    </section>
+
+    <!--footer section-->
+
+    <section class="footer" id="section">
+
+        <div class="footer-box">
+            <h3>Company</h3>
+            <a href="#">About</a>
+            <a href="#">features</a>
+            <a href="#">Works</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>FAQ</h3>
+            <a href="#">About</a>
+            <a href="#">features</a>
+            <a href="#">Works</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Our Channels</h3>
+            <a href="#">YouTube Videos</a>
+            <a href="#">Instagram</a>
+            <a href="#">FaceBook</a>
+           
+        </div>
+
+        <div class="footer-box">
+            <h3>Social Media Handles</h3>
+            <div class="Social">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!--copyright-->
+
+    <div class="copyright">
+        <div class="end-text">&copy copyright 2025 by Tausai Matthew
+            <div class="copy-Social">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+                <a href="#"><i class="ri-tiktok-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+            </div>
+       
+        </div>
+    </div>
+
+
+
+    <!--custom js link-->
+    <script src="js/script.js"></script>
+    
+    <script src ="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            offset:300,
+            duration:1450,
+        });
+    </script>
+    
+</body>
+</html>
